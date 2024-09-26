@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Junaid Designer || cafe template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- css style -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<!-- fevicon -->
+	<link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3A9ThilykONtQBhi5u8qC8WpP9EQQ854-0g&s">
+</head>
+<body>
+	<!-- navbar -->
+<nav>
+<a href="#home">HOME</a>
+<a href="#about">ABOUT</a>
+<a href="#menu">MENU</a>
+<a href="#where" class="active">WHERE</a>	
+</nav>
+
+	<!-- Header with Image -->
+
+<header id="home">
+	<div class="timingMenu">
+		<span>Open from 6am to 5pm</span>
+	</div>
+	<div class="cafeBrand">
+		<span>the<br>Cafe</span>
+	</div>
+	<div class="sinceMenu">
+		<span>15 Adr street, 5015</span>
+	</div>
+</header>
+
+	<!-- container -->
+	<div class="container" id="about">
+		<div class="cafeHeading">
+			<h4>ABOUT THE CAFE</h4>
+		</div>
+			<p>
+				The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<p>
+				In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+			</p>
+		<div class="leftBar">
+			<p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+			<p>Chef, Coffeeist and Owner: Liam Brown</p>
+		</div>
+		<img src="https://www.w3schools.com/w3images/coffeeshop.jpg" style="width: 100%;">
+		<p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+	</div>
+
+	<div class="container" id="menu">
+		<h5 class="menuHeading">THE MENU</h5>
+		
+		<div class="cardMenu">
+
+			<div class="tab">
+				<button class="tablinks" onclick="openMenu(event,'Eat');">Eat</button>
+				<button class="tablinks" onclick="openMenu(event,'Drinks');">Drink</button>
+			</div>
+
+			<div class="tabcontent eatImage" id="Eat">
+				<h4>Bread Basket</h4>
+  				<p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+  				<h4>Honey Almond Granola with Fruits</h4>
+  				<p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+  
+  				<h4>Belgian Waffle</h4>
+  				<p>Vanilla flavored batter with malted flour 7.50</p>
+
+  				<h4>Scrambled eggs</h4>
+  				<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+  				<h4>Blueberry Pancakes</h4>
+  				<p>With syrup, butter and lots of berries 8.50</p>
+			</div>
+			<div class="tabcontent drinksImage" id="Drinks" style="display: none;">
+				<h4>Coffee</h4>
+  				<p>Regular coffee 2.50</p>
+
+  				<h4>Chocolato</h4>
+ 			 	<p>Chocolate espresso with milk 4.50</p>
+
+  				<h4>Corretto</h4>
+  				<p>Whiskey and coffee 5.00</p>
+
+  				<h4>Iced tea</h4>
+  				<p>Hot tea, except not hot 3.00</p>
+
+  				<h4>Soda</h4>
+  				<p>Coke, Sprite, Fanta, etc. 2.50</p>
+			</div>
+
+			<div class="coffee">
+				<img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" style="width: 100%;">
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container" id="where">
+		<h4>WHERE TO FIND US</h4>
+		<div>
+			<p>Find us at some address at some place.</p>
+			<img src="https://www.w3schools.com/w3images/map.jpg" style="width: 100%;">
+			<p><span style="background-color: #000;color: #fff;">FLY!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+			<p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+		</div>
+		<form>
+			<input type="text" name="fullname" placeholder="Name"><br>
+			<input type="number" name="people" placeholder="How many people"><br>
+			<input type="date" name="date"><br>
+			<input type="text" name="message" placeholder="Message \ Special requirements"><br>
+			<button>SEND MESSAGE</button>
+		</form>
+	</div>
+	<footer>
+		<p>Powered by <a href="#">Jd.Designer</a></p>
+	</footer>
+	<!-- javascript -->
+	<script src="./script.js"></script>
+</body>
+</html>
